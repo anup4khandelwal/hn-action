@@ -175,10 +175,7 @@ export async function updatePendingAction(formData: FormData) {
 }
 
 async function getCookieStore() {
-  const store = cookies();
-  return typeof (store as Promise<ReturnType<typeof cookies>>).then === "function"
-    ? await store
-    : store;
+  return await cookies();
 }
 
 export async function editPublishedAction(formData: FormData) {

@@ -543,8 +543,5 @@ export default async function AdminPage({
 }
 
 async function getCookieStore() {
-  const store = cookies();
-  return typeof (store as Promise<ReturnType<typeof cookies>>).then === "function"
-    ? await store
-    : store;
+  return await cookies();
 }
