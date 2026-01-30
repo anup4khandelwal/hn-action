@@ -73,13 +73,16 @@ function toContentItem(entryXml) {
 
 export async function fetchRedditItems({ subreddits = DEFAULT_SUBREDDITS } = {}) {
   const feeds = subreddits.map((subreddit) =>
-    `https://www.reddit.com/r/${subreddit}/.rss?limit=25`
+    `https://old.reddit.com/r/${subreddit}/.rss?limit=25`
   );
 
   const responses = await Promise.all(
     feeds.map(async (feedUrl) => {
       const response = await fetch(feedUrl, {
-        headers: { "User-Agent": USER_AGENT },
+        headers: {
+          "User-Agent": USER_AGENT,
+          Accept: "application/atom+xml",
+        },
       });
       if (!response.ok) {
         throw new Error(`Reddit fetch failed: ${response.status} ${response.statusText}`);
