@@ -1,0 +1,31 @@
+{
+  "tags": [
+    "agents",
+    "evals",
+    "tooling",
+    "infra",
+    "cost",
+    "data",
+    "finance",
+    "vision",
+    "rag",
+    "prompt",
+    "safety",
+    "security"
+  ],
+  "rules": [
+    { "tag": "agents", "keywords": ["agent", "agents", "autonomous"] },
+    { "tag": "evals", "keywords": ["eval", "evaluation", "benchmark", "harness"] },
+    { "tag": "safety", "keywords": ["safety", "alignment", "risk", "guardrail"] },
+    { "tag": "tooling", "keywords": ["tool", "tooling", "cli", "sdk", "library"] },
+    { "tag": "infra", "keywords": ["infra", "pipeline", "deployment", "ops"] },
+    { "tag": "cost", "keywords": ["cost", "pricing", "billing", "credits"] },
+    { "tag": "data", "keywords": ["dataset", "data", "schema", "etl"] },
+    { "tag": "finance", "keywords": ["stock", "trading", "finance", "portfolio"] },
+    { "tag": "vision", "keywords": ["image", "vision", "video", "3d"] },
+    { "tag": "rag", "keywords": ["retrieval", "rag", "search"] },
+    { "tag": "prompt", "keywords": ["prompt", "prompting"] },
+    { "tag": "agents-tools", "keywords": ["tool calling", "function calling"] },
+    { "tag": "security", "keywords": ["security", "privacy", "sandbox"] }
+  ]
+}
