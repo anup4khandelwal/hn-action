@@ -1,7 +1,7 @@
 import { getPublishedItems } from "../../lib/published";
 import { getViewCounts } from "../../lib/analytics";
 
-export const dynamic = "force-static";
+export const dynamic = "force-dynamic";
 
 function formatDate(value: string) {
   const date = new Date(value).toISOString();
@@ -24,8 +24,13 @@ function formatDate(value: string) {
   return `${monthNames[Number(month) - 1]} ${Number(day)}, ${year}`;
 }
 
-export default async function TagPage({ params }: { params: { tag: string } }) {
-  const tag = decodeURIComponent(params.tag);
+export default async function TagPage({
+  params,
+}: {
+  params: Promise<{ tag: string }>;
+}) {
+  const resolved = await params;
+  const tag = decodeURIComponent(resolved.tag);
   const items = await getPublishedItems();
   const views = await getViewCounts();
   const filtered = items.filter((item) => item.tags.includes(tag));

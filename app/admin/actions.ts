@@ -93,7 +93,7 @@ export async function approveAction(formData: FormData) {
   if (!pendingId || !whyThisMatters || !tryThis || !timeEstimate) {
     redirect("/admin?error=missing-fields");
   }
-  if (!passesQualityChecks(whyThisMatters, tryThis)) {
+  if (!passesQualityChecks(whyThisMatters, tryThis, tags)) {
     redirect("/admin?error=quality");
   }
 
@@ -195,7 +195,7 @@ export async function editPublishedAction(formData: FormData) {
   if (!publishedId || !whyThisMatters || !tryThis || !timeEstimate) {
     redirect("/admin?error=missing-fields");
   }
-  if (!passesQualityChecks(whyThisMatters, tryThis)) {
+  if (!passesQualityChecks(whyThisMatters, tryThis, tags)) {
     redirect("/admin?error=quality");
   }
 
@@ -371,7 +371,7 @@ export async function bulkApproveAction(formData: FormData) {
   if (!whyThisMatters || !tryThis || !timeEstimate) {
     redirect("/admin?error=missing-fields");
   }
-  if (!passesQualityChecks(whyThisMatters, tryThis)) {
+  if (!passesQualityChecks(whyThisMatters, tryThis, tags)) {
     redirect("/admin?error=quality");
   }
 
@@ -441,12 +441,16 @@ export async function quickApproveAction(formData: FormData) {
   redirect("/admin");
 }
 
-function passesQualityChecks(whyThisMatters: string, tryThis: string) {
+function passesQualityChecks(
+  whyThisMatters: string,
+  tryThis: string,
+  tags: string[]
+) {
   const minLength = 120;
   const combined = `${whyThisMatters} ${tryThis}`.trim();
   const banned = ["click here", "subscribe", "buy now", "limited time"];
   const hasBanned = banned.some((phrase) =>
     combined.toLowerCase().includes(phrase)
   );
-  return combined.length >= minLength && !hasBanned;
+  return combined.length >= minLength && !hasBanned && tags.length >= 2;
 }

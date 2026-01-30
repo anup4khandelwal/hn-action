@@ -13,55 +13,23 @@ const DEFAULT_SUBREDDITS = [
 
 const USER_AGENT = "HN-Action-Bot/1.0 (https://github.com/hn-action)";
 
-function decodeEntities(input) {
-  return input
-    .replace(/&amp;/g, "&")
-    .replace(/&lt;/g, "<")
-    .replace(/&gt;/g, ">")
-    .replace(/&quot;/g, '"')
-    .replace(/&#39;/g, "'");
-}
-
-function extractTagValue(block, tag) {
-  const match = block.match(new RegExp(`<${tag}[^>]*>([\\s\\S]*?)</${tag}>`, "i"));
-  return match ? match[1].trim() : "";
-}
-
-function extractLinkHref(block) {
-  const match = block.match(/<link[^>]*href="([^"]+)"[^>]*>/i);
-  return match ? match[1] : "";
-}
-
-function extractOutboundUrl(content) {
-  const match = content.match(/href="([^"]+)"/i);
-  return match ? decodeEntities(match[1]) : "";
-}
-
-function splitEntries(xml) {
-  return xml
-    .split(/<entry>/i)
-    .slice(1)
-    .map((chunk) => chunk.split(/<\/entry>/i)[0]);
-}
-
-function toContentItem(entryXml) {
-  const title = decodeEntities(extractTagValue(entryXml, "title")) || "Untitled Reddit Post";
-  const discussionUrl = extractLinkHref(entryXml);
-  const content = extractTagValue(entryXml, "content");
-  const outboundUrl = extractOutboundUrl(content);
-  const canonicalUrl = canonicalizeUrl(outboundUrl || discussionUrl);
-  const idRaw = extractTagValue(entryXml, "id");
-  const updated = extractTagValue(entryXml, "updated");
+function toContentItem(post) {
+  const title = post.title || "Untitled Reddit Post";
+  const discussionUrl = `https://www.reddit.com${post.permalink}`;
+  const outboundUrl = post.url || discussionUrl;
+  const canonicalUrl = canonicalizeUrl(outboundUrl) || canonicalizeUrl(discussionUrl);
 
   if (!canonicalUrl || !discussionUrl) return null;
 
   const base = {
-    id: `reddit-${idRaw || discussionUrl}`,
+    id: `reddit-${post.id}`,
     title,
     source: "reddit",
     discussionUrl,
     canonicalUrl,
-    createdAt: updated ? new Date(updated).toISOString() : new Date().toISOString(),
+    createdAt: post.created_utc
+      ? new Date(post.created_utc * 1000).toISOString()
+      : new Date().toISOString(),
     status: "pending",
   };
 
@@ -72,28 +40,25 @@ function toContentItem(entryXml) {
 }
 
 export async function fetchRedditItems({ subreddits = DEFAULT_SUBREDDITS } = {}) {
-  const feeds = subreddits.map((subreddit) =>
-    `https://old.reddit.com/r/${subreddit}/.rss?limit=25`
-  );
-
   const responses = await Promise.all(
-    feeds.map(async (feedUrl) => {
-      const response = await fetch(feedUrl, {
-        headers: {
-          "User-Agent": USER_AGENT,
-          Accept: "application/atom+xml",
-        },
+    subreddits.map(async (subreddit) => {
+      const url = `https://www.reddit.com/r/${subreddit}/new.json?limit=25`;
+      const response = await fetch(url, {
+        headers: { "User-Agent": USER_AGENT },
       });
       if (!response.ok) {
-        throw new Error(`Reddit fetch failed: ${response.status} ${response.statusText}`);
+        console.warn(`Reddit fetch failed: ${url} ${response.status}`);
+        return null;
       }
-      return response.text();
+      return response.json();
     })
   );
 
-  const entries = responses.flatMap((xml) => splitEntries(xml));
-
-  return entries
-    .map((entryXml) => toContentItem(entryXml))
+  const posts = responses
+    .filter(Boolean)
+    .flatMap((payload) => payload?.data?.children || [])
+    .map((child) => child.data)
     .filter(Boolean);
+
+  return posts.map((post) => toContentItem(post)).filter(Boolean);
 }

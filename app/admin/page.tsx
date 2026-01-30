@@ -250,7 +250,7 @@ export default async function AdminPage({
           )}
           {resolvedSearchParams.error === "quality" && (
             <p className="error">
-              Add more detail. The combined text must be at least 120 characters and avoid promo phrases.
+              Add more detail. The combined text must be at least 120 characters, avoid promo phrases, and include at least 2 tags.
             </p>
           )}
           {resolvedSearchParams.error === "not-found" && (
