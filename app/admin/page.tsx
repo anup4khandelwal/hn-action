@@ -23,6 +23,7 @@ import { autoDraft } from "../../utils/autoDraft";
 import { detectDuplicates } from "./dup";
 import type { PendingItem, PublishedItem } from "../../utils/types";
 import { getViewCounts } from "../lib/analytics";
+import { getIngestHealth } from "../lib/ingestHealth";
 
 export const dynamic = "force-dynamic";
 
@@ -64,6 +65,7 @@ export default async function AdminPage({
   const pending = isAuthed ? await getPendingItems() : [];
   const published = isAuthed ? await getPublishedItems() : [];
   const viewCounts = isAuthed ? await getViewCounts() : {};
+  const ingestHealth = isAuthed ? await getIngestHealth() : null;
   const formatDateTime = (value: string) =>
     new Date(value).toISOString().replace("T", " ").slice(0, 16) + " UTC";
   const pendingPage = Math.max(1, Number(resolvedSearchParams.pendingPage || 1));
@@ -163,6 +165,16 @@ export default async function AdminPage({
             <div className="admin-meta">
               <span className="badge">Pending: {pending.length}</span>
               <span className="badge">Published: {published.length}</span>
+              {ingestHealth && (
+                <span className="badge">
+                  Ingest: {ingestHealth.counts.hn} HN / {ingestHealth.counts.reddit} Reddit
+                </span>
+              )}
+              {ingestHealth?.lastRunAt && (
+                <span className="badge">
+                  Last run: {formatDateTime(ingestHealth.lastRunAt)}
+                </span>
+              )}
               <form action={runIngestAction}>
                 <button type="submit" className="ghost">
                   Run ingest now

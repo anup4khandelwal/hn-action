@@ -6,6 +6,7 @@ import { dedupByCanonicalUrl } from "../utils/dedup.js";
 const PENDING_PATH = new URL("../data/pending.json", import.meta.url);
 const PUBLISHED_PATH = new URL("../data/published.json", import.meta.url);
 const CONFIG_PATH = new URL("../data/ingest-config.json", import.meta.url);
+const HEALTH_PATH = new URL("../data/ingest-health.json", import.meta.url);
 
 async function readJsonArray(path) {
   try {
@@ -46,6 +47,15 @@ async function run() {
 
   const incoming = [...hnItems, ...redditItems];
   const deduped = dedupByCanonicalUrl(incoming, [...pending, ...published]);
+
+  await writeJson(HEALTH_PATH, {
+    lastRunAt: new Date().toISOString(),
+    counts: {
+      total: incoming.length,
+      hn: hnItems.length,
+      reddit: redditItems.length,
+    },
+  });
 
   if (deduped.length === 0) {
     console.log("No new items.");

@@ -1,6 +1,7 @@
 import { getPublishedItems } from "./lib/published";
 import { getViewCounts } from "./lib/analytics";
 import { getFeaturedId } from "./lib/featured";
+import { getIngestHealth } from "./lib/ingestHealth";
 import Filters from "./ui/filters";
 
 export const dynamic = "force-static";
@@ -29,6 +30,7 @@ function formatDate(value: string) {
 export default async function HomePage() {
   const items = await getPublishedItems();
   const views = await getViewCounts();
+  const ingestHealth = await getIngestHealth();
   const featuredId = await getFeaturedId();
   const featuredItem = featuredId
     ? items.find((item) => item.id === featuredId)
@@ -81,6 +83,28 @@ export default async function HomePage() {
             <div className="stats-badges">
               <span className="badge">HN: {counts.hn}</span>
               <span className="badge">Reddit: {counts.reddit}</span>
+            </div>
+          </section>
+          <section className="stats">
+            <div>
+              <h2>Ingest health</h2>
+              <p>
+                Last run:{" "}
+                {ingestHealth.lastRunAt
+                  ? formatDate(ingestHealth.lastRunAt)
+                  : "Never"}
+              </p>
+            </div>
+            <div className="stats-badges">
+              <span className="badge">
+                HN: {ingestHealth.counts.hn}
+              </span>
+              <span className="badge">
+                Reddit: {ingestHealth.counts.reddit}
+              </span>
+              <span className="badge">
+                Total: {ingestHealth.counts.total}
+              </span>
             </div>
           </section>
           <section className="changelog">
