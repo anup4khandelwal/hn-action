@@ -1,5 +1,566 @@
 [
   {
+    "id": "hn-47006513",
+    "title": "Why I'm not worried about AI job loss",
+    "source": "hn",
+    "discussionUrl": "https://news.ycombinator.com/item?id=47006513",
+    "canonicalUrl": "https://davidoks.blog/p/why-im-not-worried-about-ai-job-loss",
+    "createdAt": "2026-02-13T19:13:04.000Z",
+    "status": "pending",
+    "whyThisMatters": "Builders are discussing \"Why I'm not worried about AI job loss,\" which signals a real need in AI tooling or workflows. If this approach works, teams can reduce manual effort and ship experiments faster. That matters now because iteration speed is the main advantage in AI product work.",
+    "tryThis": "Skim the original discussion and extract one concrete idea or workflow change. Implement the smallest possible prototype (script, repo fork, or config change), then measure time saved or failure points. Write down what breaks first and whether the idea is worth keeping.",
+    "timeEstimate": "30m",
+    "tags": [
+      "tooling"
+    ]
+  },
+  {
+    "id": "hn-47006442",
+    "title": "AI Agents Enable Human Communication at Unprecedented Scale",
+    "source": "hn",
+    "discussionUrl": "https://news.ycombinator.com/item?id=47006442",
+    "canonicalUrl": "https://venturebeat.com/orchestration/ai-agents-turned-super-bowl-viewers-into-one-high-iq-team-now-imagine-this",
+    "createdAt": "2026-02-13T19:07:11.000Z",
+    "status": "pending",
+    "whyThisMatters": "Builders are discussing \"AI Agents Enable Human Communication at Unprecedented Scale,\" which signals a real need in AI tooling or workflows. If this approach works, teams can reduce manual effort and ship experiments faster. That matters now because iteration speed is the main advantage in AI product work.",
+    "tryThis": "Skim the original discussion and extract one concrete idea or workflow change. Implement the smallest possible prototype (script, repo fork, or config change), then measure time saved or failure points. Write down what breaks first and whether the idea is worth keeping.",
+    "timeEstimate": "30m",
+    "tags": [
+      "agents"
+    ]
+  },
+  {
+    "id": "hn-47006427",
+    "title": "AI can generate a feeling of intimacy that exceeds human connections",
+    "source": "hn",
+    "discussionUrl": "https://news.ycombinator.com/item?id=47006427",
+    "canonicalUrl": "https://techxplore.com/news/2026-01-ai-generate-intimacy-exceeds-human.html",
+    "createdAt": "2026-02-13T19:05:34.000Z",
+    "status": "pending",
+    "whyThisMatters": "Builders are discussing \"AI can generate a feeling of intimacy that exceeds human connections,\" which signals a real need in AI tooling or workflows. If this approach works, teams can reduce manual effort and ship experiments faster. That matters now because iteration speed is the main advantage in AI product work.",
+    "tryThis": "Skim the original discussion and extract one concrete idea or workflow change. Implement the smallest possible prototype (script, repo fork, or config change), then measure time saved or failure points. Write down what breaks first and whether the idea is worth keeping.",
+    "timeEstimate": "30m",
+    "tags": [
+      "tooling"
+    ]
+  },
+  {
+    "id": "hn-47006393",
+    "title": "Show HN: Skill that lets Claude Code/Codex spin up VMs and GPUs",
+    "source": "hn",
+    "discussionUrl": "https://news.ycombinator.com/item?id=47006393",
+    "canonicalUrl": "https://cloudrouter.dev/",
+    "createdAt": "2026-02-13T19:02:17.000Z",
+    "status": "pending",
+    "whyThisMatters": "Show HN threads like \"Show HN: Skill that lets Claude Code/Codex spin up VMs and GPUs\" often surface new tools before they become mainstream. A quick hands-on test can reveal whether the tool is production-ready or just a demo. That matters because small teams need reliable shortcuts, not prototypes that collapse in real workflows.",
+    "tryThis": "Run the demo or repo, then replicate a single real workflow you already do today. Measure setup time, rough edges, and the first point of failure. If it saves time twice in a row, consider adopting it or contributing a fix.",
+    "timeEstimate": "30m",
+    "tags": [
+      "tooling"
+    ]
+  },
+  {
+    "id": "hn-47006289",
+    "title": "Show HN: Kintsugi – A desktop app for reviewing Claude Code sessions",
+    "source": "hn",
+    "discussionUrl": "https://news.ycombinator.com/item?id=47006289",
+    "canonicalUrl": "https://events.sonarsource.com/kintsugi",
+    "createdAt": "2026-02-13T18:54:14.000Z",
+    "status": "pending",
+    "whyThisMatters": "Show HN threads like \"Show HN: Kintsugi – A desktop app for reviewing Claude Code sessions\" often surface new tools before they become mainstream. A quick hands-on test can reveal whether the tool is production-ready or just a demo. That matters because small teams need reliable shortcuts, not prototypes that collapse in real workflows.",
+    "tryThis": "Run the demo or repo, then replicate a single real workflow you already do today. Measure setup time, rough edges, and the first point of failure. If it saves time twice in a row, consider adopting it or contributing a fix.",
+    "timeEstimate": "30m",
+    "tags": [
+      "tooling"
+    ]
+  },
+  {
+    "id": "hn-47006233",
+    "title": "Show HN: Sentinel Core – Open-source AI video search and detection engine",
+    "source": "hn",
+    "discussionUrl": "https://news.ycombinator.com/item?id=47006233",
+    "canonicalUrl": "https://github.com/abg-labs/sentinel-core",
+    "createdAt": "2026-02-13T18:49:44.000Z",
+    "status": "pending",
+    "whyThisMatters": "Show HN threads like \"Show HN: Sentinel Core – Open-source AI video search and detection engine\" often surface new tools before they become mainstream. A quick hands-on test can reveal whether the tool is production-ready or just a demo. That matters because small teams need reliable shortcuts, not prototypes that collapse in real workflows.",
+    "tryThis": "Run the demo or repo, then replicate a single real workflow you already do today. Measure setup time, rough edges, and the first point of failure. If it saves time twice in a row, consider adopting it or contributing a fix.",
+    "timeEstimate": "30m",
+    "tags": [
+      "vision",
+      "rag"
+    ]
+  },
+  {
+    "id": "hn-47006178",
+    "title": "Show HN: AI Rename, Automatic File Renaming in Nautilus",
+    "source": "hn",
+    "discussionUrl": "https://news.ycombinator.com/item?id=47006178",
+    "canonicalUrl": "https://github.com/amichae2/ai-rename",
+    "createdAt": "2026-02-13T18:46:06.000Z",
+    "status": "pending",
+    "whyThisMatters": "Show HN threads like \"Show HN: AI Rename, Automatic File Renaming in Nautilus\" often surface new tools before they become mainstream. A quick hands-on test can reveal whether the tool is production-ready or just a demo. That matters because small teams need reliable shortcuts, not prototypes that collapse in real workflows.",
+    "tryThis": "Run the demo or repo, then replicate a single real workflow you already do today. Measure setup time, rough edges, and the first point of failure. If it saves time twice in a row, consider adopting it or contributing a fix.",
+    "timeEstimate": "30m",
+    "tags": [
+      "tooling"
+    ]
+  },
+  {
+    "id": "hn-47006167",
+    "title": "Show HN: Ground Station – All-in-one satellite monitoring suite (Python, SDR)",
+    "source": "hn",
+    "discussionUrl": "https://news.ycombinator.com/item?id=47006167",
+    "canonicalUrl": "https://github.com/sgoudelis/ground-station",
+    "createdAt": "2026-02-13T18:45:28.000Z",
+    "status": "pending",
+    "whyThisMatters": "Show HN threads like \"Show HN: Ground Station – All-in-one satellite monitoring suite (Python, SDR)\" often surface new tools before they become mainstream. A quick hands-on test can reveal whether the tool is production-ready or just a demo. That matters because small teams need reliable shortcuts, not prototypes that collapse in real workflows.",
+    "tryThis": "Run the demo or repo, then replicate a single real workflow you already do today. Measure setup time, rough edges, and the first point of failure. If it saves time twice in a row, consider adopting it or contributing a fix.",
+    "timeEstimate": "30m",
+    "tags": [
+      "tooling"
+    ]
+  },
+  {
+    "id": "hn-47006101",
+    "title": "The next generation of AI businesses",
+    "source": "hn",
+    "discussionUrl": "https://news.ycombinator.com/item?id=47006101",
+    "canonicalUrl": "https://seths.blog/2026/02/the-next-generation-of-ai-businesses",
+    "createdAt": "2026-02-13T18:39:42.000Z",
+    "status": "pending",
+    "whyThisMatters": "Builders are discussing \"The next generation of AI businesses,\" which signals a real need in AI tooling or workflows. If this approach works, teams can reduce manual effort and ship experiments faster. That matters now because iteration speed is the main advantage in AI product work.",
+    "tryThis": "Skim the original discussion and extract one concrete idea or workflow change. Implement the smallest possible prototype (script, repo fork, or config change), then measure time saved or failure points. Write down what breaks first and whether the idea is worth keeping.",
+    "timeEstimate": "30m",
+    "tags": [
+      "tooling"
+    ]
+  },
+  {
+    "id": "hn-47006000",
+    "title": "Microsoft AI chief: 18 months for all white-collar work to be automated",
+    "source": "hn",
+    "discussionUrl": "https://news.ycombinator.com/item?id=47006000",
+    "canonicalUrl": "https://fortune.com/2026/02/13/when-will-ai-kill-white-collar-office-jobs-18-months-microsoft-mustafa-suleyman",
+    "createdAt": "2026-02-13T18:31:01.000Z",
+    "status": "pending",
+    "whyThisMatters": "Builders are discussing \"Microsoft AI chief: 18 months for all white-collar work to be automated,\" which signals a real need in AI tooling or workflows. If this approach works, teams can reduce manual effort and ship experiments faster. That matters now because iteration speed is the main advantage in AI product work.",
+    "tryThis": "Skim the original discussion and extract one concrete idea or workflow change. Implement the smallest possible prototype (script, repo fork, or config change), then measure time saved or failure points. Write down what breaks first and whether the idea is worth keeping.",
+    "timeEstimate": "30m",
+    "tags": [
+      "tooling"
+    ]
+  },
+  {
+    "id": "hn-47005987",
+    "title": "MSP Pentesting Using AI as a Service?",
+    "source": "hn",
+    "discussionUrl": "https://news.ycombinator.com/item?id=47005987",
+    "canonicalUrl": "https://www.msppentesting.com/automated-and-ai-pentesting",
+    "createdAt": "2026-02-13T18:30:14.000Z",
+    "status": "pending",
+    "whyThisMatters": "Builders are discussing \"MSP Pentesting Using AI as a Service?,\" which signals a real need in AI tooling or workflows. If this approach works, teams can reduce manual effort and ship experiments faster. That matters now because iteration speed is the main advantage in AI product work.",
+    "tryThis": "Skim the original discussion and extract one concrete idea or workflow change. Implement the smallest possible prototype (script, repo fork, or config change), then measure time saved or failure points. Write down what breaks first and whether the idea is worth keeping.",
+    "timeEstimate": "30m",
+    "tags": [
+      "tooling"
+    ]
+  },
+  {
+    "id": "hn-47005945",
+    "title": "SkyRL Brings Tinker to Your GPUs",
+    "source": "hn",
+    "discussionUrl": "https://news.ycombinator.com/item?id=47005945",
+    "canonicalUrl": "https://novasky-ai.notion.site/skyrl-tinker",
+    "createdAt": "2026-02-13T18:26:24.000Z",
+    "status": "pending",
+    "whyThisMatters": "Builders are discussing \"SkyRL Brings Tinker to Your GPUs,\" which signals a real need in AI tooling or workflows. If this approach works, teams can reduce manual effort and ship experiments faster. That matters now because iteration speed is the main advantage in AI product work.",
+    "tryThis": "Skim the original discussion and extract one concrete idea or workflow change. Implement the smallest possible prototype (script, repo fork, or config change), then measure time saved or failure points. Write down what breaks first and whether the idea is worth keeping.",
+    "timeEstimate": "30m",
+    "tags": [
+      "tooling"
+    ]
+  },
+  {
+    "id": "hn-47005935",
+    "title": "Go! The AI Personal Operating System for Your Life",
+    "source": "hn",
+    "discussionUrl": "https://news.ycombinator.com/item?id=47005935",
+    "canonicalUrl": "https://app.gosmartchain.ai/",
+    "createdAt": "2026-02-13T18:25:32.000Z",
+    "status": "pending",
+    "whyThisMatters": "Builders are discussing \"Go! The AI Personal Operating System for Your Life,\" which signals a real need in AI tooling or workflows. If this approach works, teams can reduce manual effort and ship experiments faster. That matters now because iteration speed is the main advantage in AI product work.",
+    "tryThis": "Skim the original discussion and extract one concrete idea or workflow change. Implement the smallest possible prototype (script, repo fork, or config change), then measure time saved or failure points. Write down what breaks first and whether the idea is worth keeping.",
+    "timeEstimate": "30m",
+    "tags": [
+      "tooling"
+    ]
+  },
+  {
+    "id": "hn-47005742",
+    "title": "Show HN: I built an AI that generates love proposals as pitch decks",
+    "source": "hn",
+    "discussionUrl": "https://news.ycombinator.com/item?id=47005742",
+    "canonicalUrl": "https://aiproposal.fun/",
+    "createdAt": "2026-02-13T18:10:51.000Z",
+    "status": "pending",
+    "whyThisMatters": "Show HN threads like \"Show HN: I built an AI that generates love proposals as pitch decks\" often surface new tools before they become mainstream. A quick hands-on test can reveal whether the tool is production-ready or just a demo. That matters because small teams need reliable shortcuts, not prototypes that collapse in real workflows.",
+    "tryThis": "Run the demo or repo, then replicate a single real workflow you already do today. Measure setup time, rough edges, and the first point of failure. If it saves time twice in a row, consider adopting it or contributing a fix.",
+    "timeEstimate": "30m",
+    "tags": [
+      "tooling"
+    ]
+  },
+  {
+    "id": "hn-47005739",
+    "title": "The Women Mourning the \"Deaths\" of Their AI Boyfriends",
+    "source": "hn",
+    "discussionUrl": "https://news.ycombinator.com/item?id=47005739",
+    "canonicalUrl": "https://www.playboy.com/read/sex-relationships/the-women-mourning-the-deaths-of-their-ai-boyfriends",
+    "createdAt": "2026-02-13T18:10:40.000Z",
+    "status": "pending",
+    "whyThisMatters": "Builders are discussing \"The Women Mourning the \"Deaths\" of Their AI Boyfriends,\" which signals a real need in AI tooling or workflows. If this approach works, teams can reduce manual effort and ship experiments faster. That matters now because iteration speed is the main advantage in AI product work.",
+    "tryThis": "Skim the original discussion and extract one concrete idea or workflow change. Implement the smallest possible prototype (script, repo fork, or config change), then measure time saved or failure points. Write down what breaks first and whether the idea is worth keeping.",
+    "timeEstimate": "30m",
+    "tags": [
+      "tooling"
+    ]
+  },
+  {
+    "id": "hn-47005715",
+    "title": "I Didn't Want AI to Be Good at This",
+    "source": "hn",
+    "discussionUrl": "https://news.ycombinator.com/item?id=47005715",
+    "canonicalUrl": "https://robbyonrails.com/articles/2026/02/12/i-didnt-want-ai-to-be-good-at-this",
+    "createdAt": "2026-02-13T18:08:04.000Z",
+    "status": "pending",
+    "whyThisMatters": "Builders are discussing \"I Didn't Want AI to Be Good at This,\" which signals a real need in AI tooling or workflows. If this approach works, teams can reduce manual effort and ship experiments faster. That matters now because iteration speed is the main advantage in AI product work.",
+    "tryThis": "Skim the original discussion and extract one concrete idea or workflow change. Implement the smallest possible prototype (script, repo fork, or config change), then measure time saved or failure points. Write down what breaks first and whether the idea is worth keeping.",
+    "timeEstimate": "30m",
+    "tags": [
+      "tooling"
+    ]
+  },
+  {
+    "id": "hn-47006396",
+    "title": "Moltopia: A virtual world for OpenClaw agents",
+    "source": "hn",
+    "discussionUrl": "https://news.ycombinator.com/item?id=47006396",
+    "canonicalUrl": "https://moltopia.org/",
+    "createdAt": "2026-02-13T19:02:33.000Z",
+    "status": "pending",
+    "whyThisMatters": "Builders are discussing \"Moltopia: A virtual world for OpenClaw agents,\" which signals a real need in AI tooling or workflows. If this approach works, teams can reduce manual effort and ship experiments faster. That matters now because iteration speed is the main advantage in AI product work.",
+    "tryThis": "Skim the original discussion and extract one concrete idea or workflow change. Implement the smallest possible prototype (script, repo fork, or config change), then measure time saved or failure points. Write down what breaks first and whether the idea is worth keeping.",
+    "timeEstimate": "30m",
+    "tags": [
+      "agents"
+    ]
+  },
+  {
+    "id": "hn-47006350",
+    "title": "Digital Pheromones: What Ants Know About Agent Coordination That We Don't",
+    "source": "hn",
+    "discussionUrl": "https://news.ycombinator.com/item?id=47006350",
+    "canonicalUrl": "https://www.distributedthoughts.org/digital-pheromones-what-ants-know-about-agent-coordination",
+    "createdAt": "2026-02-13T18:59:07.000Z",
+    "status": "pending",
+    "whyThisMatters": "Builders are discussing \"Digital Pheromones: What Ants Know About Agent Coordination That We Don't,\" which signals a real need in AI tooling or workflows. If this approach works, teams can reduce manual effort and ship experiments faster. That matters now because iteration speed is the main advantage in AI product work.",
+    "tryThis": "Skim the original discussion and extract one concrete idea or workflow change. Implement the smallest possible prototype (script, repo fork, or config change), then measure time saved or failure points. Write down what breaks first and whether the idea is worth keeping.",
+    "timeEstimate": "30m",
+    "tags": [
+      "agents"
+    ]
+  },
+  {
+    "id": "hn-47006330",
+    "title": "EU is following the far-right Heritage Foundation's agenda on age verification",
+    "source": "hn",
+    "discussionUrl": "https://news.ycombinator.com/item?id=47006330",
+    "canonicalUrl": "https://old.reddit.com/r/buyfromeu/comments/1r3pyqn/eu_is_following_the_farright_heritage_foundations",
+    "createdAt": "2026-02-13T18:57:58.000Z",
+    "status": "pending",
+    "whyThisMatters": "Builders are discussing \"EU is following the far-right Heritage Foundation's agenda on age verification,\" which signals a real need in AI tooling or workflows. If this approach works, teams can reduce manual effort and ship experiments faster. That matters now because iteration speed is the main advantage in AI product work.",
+    "tryThis": "Skim the original discussion and extract one concrete idea or workflow change. Implement the smallest possible prototype (script, repo fork, or config change), then measure time saved or failure points. Write down what breaks first and whether the idea is worth keeping.",
+    "timeEstimate": "30m",
+    "tags": [
+      "tooling"
+    ]
+  },
+  {
+    "id": "hn-47006296",
+    "title": "Custom Kernels for All from Codex and Claude",
+    "source": "hn",
+    "discussionUrl": "https://news.ycombinator.com/item?id=47006296",
+    "canonicalUrl": "https://huggingface.co/blog/custom-cuda-kernels-agent-skills",
+    "createdAt": "2026-02-13T18:55:21.000Z",
+    "status": "pending",
+    "whyThisMatters": "Builders are discussing \"Custom Kernels for All from Codex and Claude,\" which signals a real need in AI tooling or workflows. If this approach works, teams can reduce manual effort and ship experiments faster. That matters now because iteration speed is the main advantage in AI product work.",
+    "tryThis": "Skim the original discussion and extract one concrete idea or workflow change. Implement the smallest possible prototype (script, repo fork, or config change), then measure time saved or failure points. Write down what breaks first and whether the idea is worth keeping.",
+    "timeEstimate": "30m",
+    "tags": [
+      "tooling"
+    ]
+  },
+  {
+    "id": "hn-47006293",
+    "title": "Analyzing How System Prompts Define Agent Behavior",
+    "source": "hn",
+    "discussionUrl": "https://news.ycombinator.com/item?id=47006293",
+    "canonicalUrl": "https://www.dbreunig.com/2026/02/10/system-prompts-define-the-agent-as-much-as-the-model.html",
+    "createdAt": "2026-02-13T18:54:44.000Z",
+    "status": "pending",
+    "whyThisMatters": "Builders are discussing \"Analyzing How System Prompts Define Agent Behavior,\" which signals a real need in AI tooling or workflows. If this approach works, teams can reduce manual effort and ship experiments faster. That matters now because iteration speed is the main advantage in AI product work.",
+    "tryThis": "Skim the original discussion and extract one concrete idea or workflow change. Implement the smallest possible prototype (script, repo fork, or config change), then measure time saved or failure points. Write down what breaks first and whether the idea is worth keeping.",
+    "timeEstimate": "30m",
+    "tags": [
+      "agents",
+      "prompt"
+    ]
+  },
+  {
+    "id": "hn-47006248",
+    "title": "Show HN: OpenWhisper – free, local, and private voice-to-text macOS app",
+    "source": "hn",
+    "discussionUrl": "https://news.ycombinator.com/item?id=47006248",
+    "canonicalUrl": "https://github.com/richardwu/openwhisper",
+    "createdAt": "2026-02-13T18:51:20.000Z",
+    "status": "pending",
+    "whyThisMatters": "Show HN threads like \"Show HN: OpenWhisper – free, local, and private voice-to-text macOS app\" often surface new tools before they become mainstream. A quick hands-on test can reveal whether the tool is production-ready or just a demo. That matters because small teams need reliable shortcuts, not prototypes that collapse in real workflows.",
+    "tryThis": "Run the demo or repo, then replicate a single real workflow you already do today. Measure setup time, rough edges, and the first point of failure. If it saves time twice in a row, consider adopting it or contributing a fix.",
+    "timeEstimate": "30m",
+    "tags": [
+      "tooling"
+    ]
+  },
+  {
+    "id": "hn-47005907",
+    "title": "code-simplifier.md",
+    "source": "hn",
+    "discussionUrl": "https://news.ycombinator.com/item?id=47005907",
+    "canonicalUrl": "https://github.com/getsentry/skills/blob/main/plugins/sentry-skills/agents/code-simplifier.md",
+    "createdAt": "2026-02-13T18:23:05.000Z",
+    "status": "pending",
+    "whyThisMatters": "Builders are discussing \"code-simplifier.md,\" which signals a real need in AI tooling or workflows. If this approach works, teams can reduce manual effort and ship experiments faster. That matters now because iteration speed is the main advantage in AI product work.",
+    "tryThis": "Skim the original discussion and extract one concrete idea or workflow change. Implement the smallest possible prototype (script, repo fork, or config change), then measure time saved or failure points. Write down what breaks first and whether the idea is worth keeping.",
+    "timeEstimate": "30m",
+    "tags": [
+      "tooling"
+    ]
+  },
+  {
+    "id": "hn-47005714",
+    "title": "Looks Aren't Everything? Clavicular Begs to Differ",
+    "source": "hn",
+    "discussionUrl": "https://news.ycombinator.com/item?id=47005714",
+    "canonicalUrl": "https://www.nytimes.com/2026/02/13/style/clavicular-looksmaxxing-braden-peters.html",
+    "createdAt": "2026-02-13T18:07:59.000Z",
+    "status": "pending",
+    "whyThisMatters": "Builders are discussing \"Looks Aren't Everything? Clavicular Begs to Differ,\" which signals a real need in AI tooling or workflows. If this approach works, teams can reduce manual effort and ship experiments faster. That matters now because iteration speed is the main advantage in AI product work.",
+    "tryThis": "Skim the original discussion and extract one concrete idea or workflow change. Implement the smallest possible prototype (script, repo fork, or config change), then measure time saved or failure points. Write down what breaks first and whether the idea is worth keeping.",
+    "timeEstimate": "30m",
+    "tags": [
+      "tooling"
+    ]
+  },
+  {
+    "id": "hn-47005669",
+    "title": "Long-Running Agents in Research Preview",
+    "source": "hn",
+    "discussionUrl": "https://news.ycombinator.com/item?id=47005669",
+    "canonicalUrl": "https://cursor.com/changelog/02-12-26",
+    "createdAt": "2026-02-13T18:04:15.000Z",
+    "status": "pending",
+    "whyThisMatters": "Builders are discussing \"Long-Running Agents in Research Preview,\" which signals a real need in AI tooling or workflows. If this approach works, teams can reduce manual effort and ship experiments faster. That matters now because iteration speed is the main advantage in AI product work.",
+    "tryThis": "Skim the original discussion and extract one concrete idea or workflow change. Implement the smallest possible prototype (script, repo fork, or config change), then measure time saved or failure points. Write down what breaks first and whether the idea is worth keeping.",
+    "timeEstimate": "30m",
+    "tags": [
+      "agents",
+      "rag"
+    ]
+  },
+  {
+    "id": "hn-47002527",
+    "title": "Show HN: Funxy v0.6 – scripts that ship as standalone executables",
+    "source": "hn",
+    "discussionUrl": "https://news.ycombinator.com/item?id=47002527",
+    "canonicalUrl": "https://github.com/funvibe/funxy",
+    "createdAt": "2026-02-13T13:34:42.000Z",
+    "status": "pending",
+    "whyThisMatters": "Show HN threads like \"Show HN: Funxy v0.6 – scripts that ship as standalone executables\" often surface new tools before they become mainstream. A quick hands-on test can reveal whether the tool is production-ready or just a demo. That matters because small teams need reliable shortcuts, not prototypes that collapse in real workflows.",
+    "tryThis": "Run the demo or repo, then replicate a single real workflow you already do today. Measure setup time, rough edges, and the first point of failure. If it saves time twice in a row, consider adopting it or contributing a fix.",
+    "timeEstimate": "30m",
+    "tags": [
+      "tooling"
+    ]
+  },
+  {
+    "id": "hn-47001219",
+    "title": "OpenEnv in Practice: Evaluating Tool-Using Agents in Real-World Environments",
+    "source": "hn",
+    "discussionUrl": "https://news.ycombinator.com/item?id=47001219",
+    "canonicalUrl": "https://huggingface.co/blog/openenv-turing",
+    "createdAt": "2026-02-13T10:39:14.000Z",
+    "status": "pending",
+    "whyThisMatters": "Builders are discussing \"OpenEnv in Practice: Evaluating Tool-Using Agents in Real-World Environments,\" which signals a real need in AI tooling or workflows. If this approach works, teams can reduce manual effort and ship experiments faster. That matters now because iteration speed is the main advantage in AI product work.",
+    "tryThis": "Skim the original discussion and extract one concrete idea or workflow change. Implement the smallest possible prototype (script, repo fork, or config change), then measure time saved or failure points. Write down what breaks first and whether the idea is worth keeping.",
+    "timeEstimate": "2h",
+    "tags": [
+      "agents",
+      "evals",
+      "tooling"
+    ]
+  },
+  {
+    "id": "hn-46996258",
+    "title": "Evaluating Multilingual, Context-Aware Guardrails: A Humanitarian LLM Use Case",
+    "source": "hn",
+    "discussionUrl": "https://news.ycombinator.com/item?id=46996258",
+    "canonicalUrl": "https://blog.mozilla.ai/evaluating-multilingual-context-aware-guardrails-evidence-from-a-humanitarian-llm-use-case",
+    "createdAt": "2026-02-12T22:34:58.000Z",
+    "status": "pending",
+    "whyThisMatters": "Builders are discussing \"Evaluating Multilingual, Context-Aware Guardrails: A Humanitarian LLM Use Case,\" which signals a real need in AI tooling or workflows. If this approach works, teams can reduce manual effort and ship experiments faster. That matters now because iteration speed is the main advantage in AI product work.",
+    "tryThis": "Skim the original discussion and extract one concrete idea or workflow change. Implement the smallest possible prototype (script, repo fork, or config change), then measure time saved or failure points. Write down what breaks first and whether the idea is worth keeping.",
+    "timeEstimate": "2h",
+    "tags": [
+      "evals",
+      "safety"
+    ]
+  },
+  {
+    "id": "hn-46991520",
+    "title": "Show HN: TinyFish Web Agent (82% on hard tasks vs. Operator's 43%)",
+    "source": "hn",
+    "discussionUrl": "https://news.ycombinator.com/item?id=46991520",
+    "canonicalUrl": "https://www.tinyfish.ai/blog/mind2web",
+    "createdAt": "2026-02-12T17:11:16.000Z",
+    "status": "pending",
+    "whyThisMatters": "Show HN threads like \"Show HN: TinyFish Web Agent (82% on hard tasks vs. Operator's 43%)\" often surface new tools before they become mainstream. A quick hands-on test can reveal whether the tool is production-ready or just a demo. That matters because small teams need reliable shortcuts, not prototypes that collapse in real workflows.",
+    "tryThis": "Run the demo or repo, then replicate a single real workflow you already do today. Measure setup time, rough edges, and the first point of failure. If it saves time twice in a row, consider adopting it or contributing a fix.",
+    "timeEstimate": "30m",
+    "tags": [
+      "agents"
+    ]
+  },
+  {
+    "id": "hn-46986599",
+    "title": "Forwardly-Evaluated Build Systems",
+    "source": "hn",
+    "discussionUrl": "https://news.ycombinator.com/item?id=46986599",
+    "canonicalUrl": "https://garnix.io/blog/garn2",
+    "createdAt": "2026-02-12T09:22:42.000Z",
+    "status": "pending",
+    "whyThisMatters": "Builders are discussing \"Forwardly-Evaluated Build Systems,\" which signals a real need in AI tooling or workflows. If this approach works, teams can reduce manual effort and ship experiments faster. That matters now because iteration speed is the main advantage in AI product work.",
+    "tryThis": "Skim the original discussion and extract one concrete idea or workflow change. Implement the smallest possible prototype (script, repo fork, or config change), then measure time saved or failure points. Write down what breaks first and whether the idea is worth keeping.",
+    "timeEstimate": "2h",
+    "tags": [
+      "evals"
+    ]
+  },
+  {
+    "id": "hn-47005667",
+    "title": "LLMs Don't Read Code. Neither Do I. So I Wrote Redis in Machine Code",
+    "source": "hn",
+    "discussionUrl": "https://news.ycombinator.com/item?id=47005667",
+    "canonicalUrl": "https://gist.github.com/aydinnyunus/7beef428ca91fb7eb8aa2965086998d8",
+    "createdAt": "2026-02-13T18:04:06.000Z",
+    "status": "pending",
+    "whyThisMatters": "Builders are discussing \"LLMs Don't Read Code. Neither Do I. So I Wrote Redis in Machine Code,\" which signals a real need in AI tooling or workflows. If this approach works, teams can reduce manual effort and ship experiments faster. That matters now because iteration speed is the main advantage in AI product work.",
+    "tryThis": "Skim the original discussion and extract one concrete idea or workflow change. Implement the smallest possible prototype (script, repo fork, or config change), then measure time saved or failure points. Write down what breaks first and whether the idea is worth keeping.",
+    "timeEstimate": "30m",
+    "tags": [
+      "tooling"
+    ]
+  },
+  {
+    "id": "hn-47006198",
+    "title": "OpenAI model proposes and proves Physics result",
+    "source": "hn",
+    "discussionUrl": "https://news.ycombinator.com/item?id=47006198",
+    "canonicalUrl": "https://arxiv.org/abs/2602.12176",
+    "createdAt": "2026-02-13T18:47:19.000Z",
+    "status": "pending",
+    "whyThisMatters": "Builders are discussing \"OpenAI model proposes and proves Physics result,\" which signals a real need in AI tooling or workflows. If this approach works, teams can reduce manual effort and ship experiments faster. That matters now because iteration speed is the main advantage in AI product work.",
+    "tryThis": "Skim the original discussion and extract one concrete idea or workflow change. Implement the smallest possible prototype (script, repo fork, or config change), then measure time saved or failure points. Write down what breaks first and whether the idea is worth keeping.",
+    "timeEstimate": "30m",
+    "tags": [
+      "tooling"
+    ]
+  },
+  {
+    "id": "hn-47005723",
+    "title": "Lockdown Mode and Elevated Risk Labels in ChatGPT",
+    "source": "hn",
+    "discussionUrl": "https://news.ycombinator.com/item?id=47005723",
+    "canonicalUrl": "https://openai.com/index/introducing-lockdown-mode-and-elevated-risk-labels-in-chatgpt",
+    "createdAt": "2026-02-13T18:09:12.000Z",
+    "status": "pending",
+    "whyThisMatters": "Builders are discussing \"Lockdown Mode and Elevated Risk Labels in ChatGPT,\" which signals a real need in AI tooling or workflows. If this approach works, teams can reduce manual effort and ship experiments faster. That matters now because iteration speed is the main advantage in AI product work.",
+    "tryThis": "Skim the original discussion and extract one concrete idea or workflow change. Implement the smallest possible prototype (script, repo fork, or config change), then measure time saved or failure points. Write down what breaks first and whether the idea is worth keeping.",
+    "timeEstimate": "30m",
+    "tags": [
+      "safety"
+    ]
+  },
+  {
+    "id": "hn-47005678",
+    "title": "X-raying OpenAI's unit economics",
+    "source": "hn",
+    "discussionUrl": "https://news.ycombinator.com/item?id=47005678",
+    "canonicalUrl": "https://www.exponentialview.co/p/x-raying-openais-unit-economics",
+    "createdAt": "2026-02-13T18:05:18.000Z",
+    "status": "pending",
+    "whyThisMatters": "Builders are discussing \"X-raying OpenAI's unit economics,\" which signals a real need in AI tooling or workflows. If this approach works, teams can reduce manual effort and ship experiments faster. That matters now because iteration speed is the main advantage in AI product work.",
+    "tryThis": "Skim the original discussion and extract one concrete idea or workflow change. Implement the smallest possible prototype (script, repo fork, or config change), then measure time saved or failure points. Write down what breaks first and whether the idea is worth keeping.",
+    "timeEstimate": "30m",
+    "tags": [
+      "tooling"
+    ]
+  },
+  {
+    "id": "hn-47001301",
+    "title": "OpenAI sidesteps Nvidia with unusually fast coding model on plate-sized chips",
+    "source": "hn",
+    "discussionUrl": "https://news.ycombinator.com/item?id=47001301",
+    "canonicalUrl": "https://arstechnica.com/ai/2026/02/openai-sidesteps-nvidia-with-unusually-fast-coding-model-on-plate-sized-chips",
+    "createdAt": "2026-02-13T10:50:30.000Z",
+    "status": "pending",
+    "whyThisMatters": "Builders are discussing \"OpenAI sidesteps Nvidia with unusually fast coding model on plate-sized chips,\" which signals a real need in AI tooling or workflows. If this approach works, teams can reduce manual effort and ship experiments faster. That matters now because iteration speed is the main advantage in AI product work.",
+    "tryThis": "Skim the original discussion and extract one concrete idea or workflow change. Implement the smallest possible prototype (script, repo fork, or config change), then measure time saved or failure points. Write down what breaks first and whether the idea is worth keeping.",
+    "timeEstimate": "30m",
+    "tags": [
+      "tooling"
+    ]
+  },
+  {
+    "id": "hn-46924451",
+    "title": "Show HN: Distill – Migrate LLM agents from expensive to cheap models",
+    "source": "hn",
+    "discussionUrl": "https://news.ycombinator.com/item?id=46924451",
+    "canonicalUrl": "https://github.com/ricardomoratomateos/distill",
+    "createdAt": "2026-02-07T15:08:20.000Z",
+    "status": "pending",
+    "whyThisMatters": "Show HN threads like \"Show HN: Distill – Migrate LLM agents from expensive to cheap models\" often surface new tools before they become mainstream. A quick hands-on test can reveal whether the tool is production-ready or just a demo. That matters because small teams need reliable shortcuts, not prototypes that collapse in real workflows.",
+    "tryThis": "Run the demo or repo, then replicate a single real workflow you already do today. Measure setup time, rough edges, and the first point of failure. If it saves time twice in a row, consider adopting it or contributing a fix.",
+    "timeEstimate": "30m",
+    "tags": [
+      "agents"
+    ]
+  },
+  {
+    "id": "hn-47001223",
+    "title": "Show HN: Put your practical experience into Skill in-one-go: MemOS Skill",
+    "source": "hn",
+    "discussionUrl": "https://news.ycombinator.com/item?id=47001223",
+    "canonicalUrl": "https://twitter.com/memos_dev/status/2018344169023123854",
+    "createdAt": "2026-02-13T10:39:36.000Z",
+    "status": "pending",
+    "whyThisMatters": "Show HN threads like \"Show HN: Put your practical experience into Skill in-one-go: MemOS Skill\" often surface new tools before they become mainstream. A quick hands-on test can reveal whether the tool is production-ready or just a demo. That matters because small teams need reliable shortcuts, not prototypes that collapse in real workflows.",
+    "tryThis": "Run the demo or repo, then replicate a single real workflow you already do today. Measure setup time, rough edges, and the first point of failure. If it saves time twice in a row, consider adopting it or contributing a fix.",
+    "timeEstimate": "30m",
+    "tags": [
+      "tooling"
+    ]
+  },
+  {
     "id": "hn-47005620",
     "title": "The new AI playbook: why LLM-native beats traditional ML in verticals",
     "source": "hn",
@@ -2454,565 +3015,6 @@
     "createdAt": "2026-02-13T12:54:14.000Z",
     "status": "pending",
     "whyThisMatters": "Builders are discussing \"Our AI Orchestration Frameworks Are Reinventing Linda (1985),\" which signals a real need in AI tooling or workflows. If this approach works, teams can reduce manual effort and ship experiments faster. That matters now because iteration speed is the main advantage in AI product work.",
-    "tryThis": "Skim the original discussion and extract one concrete idea or workflow change. Implement the smallest possible prototype (script, repo fork, or config change), then measure time saved or failure points. Write down what breaks first and whether the idea is worth keeping.",
-    "timeEstimate": "30m",
-    "tags": [
-      "tooling"
-    ]
-  },
-  {
-    "id": "hn-47002173",
-    "title": "Show HN: AgenQA – Turn natural language into E2E web app tests using AI",
-    "source": "hn",
-    "discussionUrl": "https://news.ycombinator.com/item?id=47002173",
-    "canonicalUrl": "https://www.agenqa.com/",
-    "createdAt": "2026-02-13T12:53:54.000Z",
-    "status": "pending",
-    "whyThisMatters": "Show HN threads like \"Show HN: AgenQA – Turn natural language into E2E web app tests using AI\" often surface new tools before they become mainstream. A quick hands-on test can reveal whether the tool is production-ready or just a demo. That matters because small teams need reliable shortcuts, not prototypes that collapse in real workflows.",
-    "tryThis": "Run the demo or repo, then replicate a single real workflow you already do today. Measure setup time, rough edges, and the first point of failure. If it saves time twice in a row, consider adopting it or contributing a fix.",
-    "timeEstimate": "30m",
-    "tags": [
-      "tooling"
-    ]
-  },
-  {
-    "id": "hn-47002152",
-    "title": "Show HN: Dreamvibe – AI dream journal that maps dreams to 17 brain regions",
-    "source": "hn",
-    "discussionUrl": "https://news.ycombinator.com/item?id=47002152",
-    "canonicalUrl": "https://www.dreamvibehq.com/",
-    "createdAt": "2026-02-13T12:52:04.000Z",
-    "status": "pending",
-    "whyThisMatters": "Show HN threads like \"Show HN: Dreamvibe – AI dream journal that maps dreams to 17 brain regions\" often surface new tools before they become mainstream. A quick hands-on test can reveal whether the tool is production-ready or just a demo. That matters because small teams need reliable shortcuts, not prototypes that collapse in real workflows.",
-    "tryThis": "Run the demo or repo, then replicate a single real workflow you already do today. Measure setup time, rough edges, and the first point of failure. If it saves time twice in a row, consider adopting it or contributing a fix.",
-    "timeEstimate": "30m",
-    "tags": [
-      "tooling"
-    ]
-  },
-  {
-    "id": "hn-47002066",
-    "title": "Semantic Interaction Description – An accessibility standard for AI agents",
-    "source": "hn",
-    "discussionUrl": "https://news.ycombinator.com/item?id=47002066",
-    "canonicalUrl": "https://sid-standard.github.io/",
-    "createdAt": "2026-02-13T12:42:43.000Z",
-    "status": "pending",
-    "whyThisMatters": "Builders are discussing \"Semantic Interaction Description – An accessibility standard for AI agents,\" which signals a real need in AI tooling or workflows. If this approach works, teams can reduce manual effort and ship experiments faster. That matters now because iteration speed is the main advantage in AI product work.",
-    "tryThis": "Skim the original discussion and extract one concrete idea or workflow change. Implement the smallest possible prototype (script, repo fork, or config change), then measure time saved or failure points. Write down what breaks first and whether the idea is worth keeping.",
-    "timeEstimate": "30m",
-    "tags": [
-      "agents"
-    ]
-  },
-  {
-    "id": "hn-47002031",
-    "title": "Show HN: Bifrost: Fastest enterprise AI gateway",
-    "source": "hn",
-    "discussionUrl": "https://news.ycombinator.com/item?id=47002031",
-    "canonicalUrl": "https://github.com/maximhq/bifrost",
-    "createdAt": "2026-02-13T12:39:14.000Z",
-    "status": "pending",
-    "whyThisMatters": "Show HN threads like \"Show HN: Bifrost: Fastest enterprise AI gateway\" often surface new tools before they become mainstream. A quick hands-on test can reveal whether the tool is production-ready or just a demo. That matters because small teams need reliable shortcuts, not prototypes that collapse in real workflows.",
-    "tryThis": "Run the demo or repo, then replicate a single real workflow you already do today. Measure setup time, rough edges, and the first point of failure. If it saves time twice in a row, consider adopting it or contributing a fix.",
-    "timeEstimate": "30m",
-    "tags": [
-      "tooling"
-    ]
-  },
-  {
-    "id": "hn-47001924",
-    "title": "Show HN: Retrospec: reverse-engineer a spec prompt for an AI agent from a commit",
-    "source": "hn",
-    "discussionUrl": "https://news.ycombinator.com/item?id=47001924",
-    "canonicalUrl": "https://github.com/igolaizola/retrospec",
-    "createdAt": "2026-02-13T12:25:41.000Z",
-    "status": "pending",
-    "whyThisMatters": "Show HN threads like \"Show HN: Retrospec: reverse-engineer a spec prompt for an AI agent from a commit\" often surface new tools before they become mainstream. A quick hands-on test can reveal whether the tool is production-ready or just a demo. That matters because small teams need reliable shortcuts, not prototypes that collapse in real workflows.",
-    "tryThis": "Run the demo or repo, then replicate a single real workflow you already do today. Measure setup time, rough edges, and the first point of failure. If it saves time twice in a row, consider adopting it or contributing a fix.",
-    "timeEstimate": "30m",
-    "tags": [
-      "agents",
-      "prompt"
-    ]
-  },
-  {
-    "id": "hn-47001887",
-    "title": "Show HN: Sqlmodel.org – open-source Browser Data Modelling",
-    "source": "hn",
-    "discussionUrl": "https://news.ycombinator.com/item?id=47001887",
-    "canonicalUrl": "https://github.com/sqlmodel/sqlmodel",
-    "createdAt": "2026-02-13T12:21:36.000Z",
-    "status": "pending",
-    "whyThisMatters": "Show HN threads like \"Show HN: Sqlmodel.org – open-source Browser Data Modelling\" often surface new tools before they become mainstream. A quick hands-on test can reveal whether the tool is production-ready or just a demo. That matters because small teams need reliable shortcuts, not prototypes that collapse in real workflows.",
-    "tryThis": "Run the demo or repo, then replicate a single real workflow you already do today. Measure setup time, rough edges, and the first point of failure. If it saves time twice in a row, consider adopting it or contributing a fix.",
-    "timeEstimate": "30m",
-    "tags": [
-      "data"
-    ]
-  },
-  {
-    "id": "hn-47001873",
-    "title": "Show HN: Ziran, security testing for AI agents",
-    "source": "hn",
-    "discussionUrl": "https://news.ycombinator.com/item?id=47001873",
-    "canonicalUrl": "https://github.com/taoq-ai/ziran",
-    "createdAt": "2026-02-13T12:18:09.000Z",
-    "status": "pending",
-    "whyThisMatters": "Show HN threads like \"Show HN: Ziran, security testing for AI agents\" often surface new tools before they become mainstream. A quick hands-on test can reveal whether the tool is production-ready or just a demo. That matters because small teams need reliable shortcuts, not prototypes that collapse in real workflows.",
-    "tryThis": "Run the demo or repo, then replicate a single real workflow you already do today. Measure setup time, rough edges, and the first point of failure. If it saves time twice in a row, consider adopting it or contributing a fix.",
-    "timeEstimate": "30m",
-    "tags": [
-      "agents",
-      "security"
-    ]
-  },
-  {
-    "id": "hn-47001858",
-    "title": "The AI Dark Forest",
-    "source": "hn",
-    "discussionUrl": "https://news.ycombinator.com/item?id=47001858",
-    "canonicalUrl": "https://maggieappleton.com/ai-dark-forest",
-    "createdAt": "2026-02-13T12:16:17.000Z",
-    "status": "pending",
-    "whyThisMatters": "Builders are discussing \"The AI Dark Forest,\" which signals a real need in AI tooling or workflows. If this approach works, teams can reduce manual effort and ship experiments faster. That matters now because iteration speed is the main advantage in AI product work.",
-    "tryThis": "Skim the original discussion and extract one concrete idea or workflow change. Implement the smallest possible prototype (script, repo fork, or config change), then measure time saved or failure points. Write down what breaks first and whether the idea is worth keeping.",
-    "timeEstimate": "30m",
-    "tags": [
-      "tooling"
-    ]
-  },
-  {
-    "id": "hn-47001833",
-    "title": "Ask HN: AI Depression",
-    "source": "hn",
-    "discussionUrl": "https://news.ycombinator.com/item?id=47001833",
-    "canonicalUrl": "https://news.ycombinator.com/item?id=47001833",
-    "createdAt": "2026-02-13T12:12:59.000Z",
-    "status": "pending",
-    "whyThisMatters": "Ask HN posts like \"Ask HN: AI Depression\" reveal pain points that many builders share. The answers often point to which tools are usable versus hype. That matters because picking the wrong stack can cost weeks of iteration.",
-    "tryThis": "Pick two suggested tools, run a 30-minute bake-off, and compare output quality and setup friction. Document the winner and the reason, then share the result back in the thread.",
-    "timeEstimate": "30m",
-    "tags": [
-      "tooling"
-    ]
-  },
-  {
-    "id": "hn-47001794",
-    "title": "Show HN: Paper Banana – AI academic illustration generator",
-    "source": "hn",
-    "discussionUrl": "https://news.ycombinator.com/item?id=47001794",
-    "canonicalUrl": "https://paperbanana.me/",
-    "createdAt": "2026-02-13T12:07:49.000Z",
-    "status": "pending",
-    "whyThisMatters": "Show HN threads like \"Show HN: Paper Banana – AI academic illustration generator\" often surface new tools before they become mainstream. A quick hands-on test can reveal whether the tool is production-ready or just a demo. That matters because small teams need reliable shortcuts, not prototypes that collapse in real workflows.",
-    "tryThis": "Run the demo or repo, then replicate a single real workflow you already do today. Measure setup time, rough edges, and the first point of failure. If it saves time twice in a row, consider adopting it or contributing a fix.",
-    "timeEstimate": "30m",
-    "tags": [
-      "tooling"
-    ]
-  },
-  {
-    "id": "hn-47001776",
-    "title": "OpenAI accuses DeepSeek of malpractice ahead of AI launch",
-    "source": "hn",
-    "discussionUrl": "https://news.ycombinator.com/item?id=47001776",
-    "canonicalUrl": "https://restofworld.org/2026/openai-deepseek-distillation-dispute-us-china",
-    "createdAt": "2026-02-13T12:05:12.000Z",
-    "status": "pending",
-    "whyThisMatters": "Builders are discussing \"OpenAI accuses DeepSeek of malpractice ahead of AI launch,\" which signals a real need in AI tooling or workflows. If this approach works, teams can reduce manual effort and ship experiments faster. That matters now because iteration speed is the main advantage in AI product work.",
-    "tryThis": "Skim the original discussion and extract one concrete idea or workflow change. Implement the smallest possible prototype (script, repo fork, or config change), then measure time saved or failure points. Write down what breaks first and whether the idea is worth keeping.",
-    "timeEstimate": "30m",
-    "tags": [
-      "tooling"
-    ]
-  },
-  {
-    "id": "hn-47001764",
-    "title": "Evidence-backed replay for AI coding session",
-    "source": "hn",
-    "discussionUrl": "https://news.ycombinator.com/item?id=47001764",
-    "canonicalUrl": "https://github.com/startripai/code-dev-replay",
-    "createdAt": "2026-02-13T12:02:49.000Z",
-    "status": "pending",
-    "whyThisMatters": "Builders are discussing \"Evidence-backed replay for AI coding session,\" which signals a real need in AI tooling or workflows. If this approach works, teams can reduce manual effort and ship experiments faster. That matters now because iteration speed is the main advantage in AI product work.",
-    "tryThis": "Skim the original discussion and extract one concrete idea or workflow change. Implement the smallest possible prototype (script, repo fork, or config change), then measure time saved or failure points. Write down what breaks first and whether the idea is worth keeping.",
-    "timeEstimate": "30m",
-    "tags": [
-      "tooling"
-    ]
-  },
-  {
-    "id": "hn-47001730",
-    "title": "OpenClaw: The AI Agent Security Crisis Unfolding Right Now",
-    "source": "hn",
-    "discussionUrl": "https://news.ycombinator.com/item?id=47001730",
-    "canonicalUrl": "https://www.reco.ai/blog/openclaw-the-ai-agent-security-crisis-unfolding-right-now",
-    "createdAt": "2026-02-13T11:58:09.000Z",
-    "status": "pending",
-    "whyThisMatters": "Builders are discussing \"OpenClaw: The AI Agent Security Crisis Unfolding Right Now,\" which signals a real need in AI tooling or workflows. If this approach works, teams can reduce manual effort and ship experiments faster. That matters now because iteration speed is the main advantage in AI product work.",
-    "tryThis": "Skim the original discussion and extract one concrete idea or workflow change. Implement the smallest possible prototype (script, repo fork, or config change), then measure time saved or failure points. Write down what breaks first and whether the idea is worth keeping.",
-    "timeEstimate": "30m",
-    "tags": [
-      "agents",
-      "security"
-    ]
-  },
-  {
-    "id": "hn-47001720",
-    "title": "Alphabet sells rare 100-year bond",
-    "source": "hn",
-    "discussionUrl": "https://news.ycombinator.com/item?id=47001720",
-    "canonicalUrl": "https://www.reuters.com/business/alphabet-sells-bonds-worth-20-billion-fund-ai-spending-2026-02-10",
-    "createdAt": "2026-02-13T11:56:36.000Z",
-    "status": "pending",
-    "whyThisMatters": "Builders are discussing \"Alphabet sells rare 100-year bond,\" which signals a real need in AI tooling or workflows. If this approach works, teams can reduce manual effort and ship experiments faster. That matters now because iteration speed is the main advantage in AI product work.",
-    "tryThis": "Skim the original discussion and extract one concrete idea or workflow change. Implement the smallest possible prototype (script, repo fork, or config change), then measure time saved or failure points. Write down what breaks first and whether the idea is worth keeping.",
-    "timeEstimate": "30m",
-    "tags": [
-      "tooling"
-    ]
-  },
-  {
-    "id": "hn-47001710",
-    "title": "AI CMO",
-    "source": "hn",
-    "discussionUrl": "https://news.ycombinator.com/item?id=47001710",
-    "canonicalUrl": "https://ai-cmo.net/",
-    "createdAt": "2026-02-13T11:55:52.000Z",
-    "status": "pending",
-    "whyThisMatters": "Builders are discussing \"AI CMO,\" which signals a real need in AI tooling or workflows. If this approach works, teams can reduce manual effort and ship experiments faster. That matters now because iteration speed is the main advantage in AI product work.",
-    "tryThis": "Skim the original discussion and extract one concrete idea or workflow change. Implement the smallest possible prototype (script, repo fork, or config change), then measure time saved or failure points. Write down what breaks first and whether the idea is worth keeping.",
-    "timeEstimate": "30m",
-    "tags": [
-      "tooling"
-    ]
-  },
-  {
-    "id": "hn-47001701",
-    "title": "Show HN: HN Rant – HN front page as a daily 25th Hour rant scene",
-    "source": "hn",
-    "discussionUrl": "https://news.ycombinator.com/item?id=47001701",
-    "canonicalUrl": "https://hnrant.com/",
-    "createdAt": "2026-02-13T11:54:03.000Z",
-    "status": "pending",
-    "whyThisMatters": "Show HN threads like \"Show HN: HN Rant – HN front page as a daily 25th Hour rant scene\" often surface new tools before they become mainstream. A quick hands-on test can reveal whether the tool is production-ready or just a demo. That matters because small teams need reliable shortcuts, not prototypes that collapse in real workflows.",
-    "tryThis": "Run the demo or repo, then replicate a single real workflow you already do today. Measure setup time, rough edges, and the first point of failure. If it saves time twice in a row, consider adopting it or contributing a fix.",
-    "timeEstimate": "30m",
-    "tags": [
-      "tooling"
-    ]
-  },
-  {
-    "id": "hn-47002127",
-    "title": "Two OpenClaw Agents Became My Overnight Pair Programming Team",
-    "source": "hn",
-    "discussionUrl": "https://news.ycombinator.com/item?id=47002127",
-    "canonicalUrl": "https://twitter.com/luigiagosti/status/2022291920454639698",
-    "createdAt": "2026-02-13T12:49:55.000Z",
-    "status": "pending",
-    "whyThisMatters": "Builders are discussing \"Two OpenClaw Agents Became My Overnight Pair Programming Team,\" which signals a real need in AI tooling or workflows. If this approach works, teams can reduce manual effort and ship experiments faster. That matters now because iteration speed is the main advantage in AI product work.",
-    "tryThis": "Skim the original discussion and extract one concrete idea or workflow change. Implement the smallest possible prototype (script, repo fork, or config change), then measure time saved or failure points. Write down what breaks first and whether the idea is worth keeping.",
-    "timeEstimate": "30m",
-    "tags": [
-      "agents"
-    ]
-  },
-  {
-    "id": "hn-47001908",
-    "title": "Show HN: DID reputation management on coinpay's site for agents and humans alike",
-    "source": "hn",
-    "discussionUrl": "https://news.ycombinator.com/item?id=47001908",
-    "canonicalUrl": "https://coinpayportal.com/",
-    "createdAt": "2026-02-13T12:22:52.000Z",
-    "status": "pending",
-    "whyThisMatters": "Show HN threads like \"Show HN: DID reputation management on coinpay's site for agents and humans alike\" often surface new tools before they become mainstream. A quick hands-on test can reveal whether the tool is production-ready or just a demo. That matters because small teams need reliable shortcuts, not prototypes that collapse in real workflows.",
-    "tryThis": "Run the demo or repo, then replicate a single real workflow you already do today. Measure setup time, rough edges, and the first point of failure. If it saves time twice in a row, consider adopting it or contributing a fix.",
-    "timeEstimate": "30m",
-    "tags": [
-      "agents"
-    ]
-  },
-  {
-    "id": "hn-47001822",
-    "title": "Even the Hospitals Aren't Safe in Iran",
-    "source": "hn",
-    "discussionUrl": "https://news.ycombinator.com/item?id=47001822",
-    "canonicalUrl": "https://www.newyorker.com/news/the-lede/cora-engelbrecht-lede-iran-waits-for-war",
-    "createdAt": "2026-02-13T12:10:46.000Z",
-    "status": "pending",
-    "whyThisMatters": "Builders are discussing \"Even the Hospitals Aren't Safe in Iran,\" which signals a real need in AI tooling or workflows. If this approach works, teams can reduce manual effort and ship experiments faster. That matters now because iteration speed is the main advantage in AI product work.",
-    "tryThis": "Skim the original discussion and extract one concrete idea or workflow change. Implement the smallest possible prototype (script, repo fork, or config change), then measure time saved or failure points. Write down what breaks first and whether the idea is worth keeping.",
-    "timeEstimate": "30m",
-    "tags": [
-      "tooling"
-    ]
-  },
-  {
-    "id": "hn-47001967",
-    "title": "Show HN: Orangensaft – A mini Python-like language with LLM eval in lang runtime",
-    "source": "hn",
-    "discussionUrl": "https://news.ycombinator.com/item?id=47001967",
-    "canonicalUrl": "https://github.com/jargnar/orangensaft",
-    "createdAt": "2026-02-13T12:31:36.000Z",
-    "status": "pending",
-    "whyThisMatters": "Show HN threads like \"Show HN: Orangensaft – A mini Python-like language with LLM eval in lang runtime\" often surface new tools before they become mainstream. A quick hands-on test can reveal whether the tool is production-ready or just a demo. That matters because small teams need reliable shortcuts, not prototypes that collapse in real workflows.",
-    "tryThis": "Run the demo or repo, then replicate a single real workflow you already do today. Measure setup time, rough edges, and the first point of failure. If it saves time twice in a row, consider adopting it or contributing a fix.",
-    "timeEstimate": "2h",
-    "tags": [
-      "evals"
-    ]
-  },
-  {
-    "id": "hn-47002079",
-    "title": "Comparing Gemini Pro 3, Opus 4.6, GLM-5 and Kimi 2.5 in a mid-sized Go project",
-    "source": "hn",
-    "discussionUrl": "https://news.ycombinator.com/item?id=47002079",
-    "canonicalUrl": "https://news.ycombinator.com/item?id=47002079",
-    "createdAt": "2026-02-13T12:44:15.000Z",
-    "status": "pending",
-    "whyThisMatters": "Builders are discussing \"Comparing Gemini Pro 3, Opus 4.6, GLM-5 and Kimi 2.5 in a mid-sized Go project,\" which signals a real need in AI tooling or workflows. If this approach works, teams can reduce manual effort and ship experiments faster. That matters now because iteration speed is the main advantage in AI product work.",
-    "tryThis": "Skim the original discussion and extract one concrete idea or workflow change. Implement the smallest possible prototype (script, repo fork, or config change), then measure time saved or failure points. Write down what breaks first and whether the idea is worth keeping.",
-    "timeEstimate": "30m",
-    "tags": [
-      "tooling"
-    ]
-  },
-  {
-    "id": "hn-47001970",
-    "title": "The Power of Ten - NASA JPL's Rules for Developing Safety Critical Code [pdf]",
-    "source": "hn",
-    "discussionUrl": "https://news.ycombinator.com/item?id=47001970",
-    "canonicalUrl": "https://spinroot.com/gerard/pdf/p10.pdf",
-    "createdAt": "2026-02-13T12:32:22.000Z",
-    "status": "pending",
-    "whyThisMatters": "Builders are discussing \"The Power of Ten - NASA JPL's Rules for Developing Safety Critical Code [pdf],\" which signals a real need in AI tooling or workflows. If this approach works, teams can reduce manual effort and ship experiments faster. That matters now because iteration speed is the main advantage in AI product work.",
-    "tryThis": "Skim the original discussion and extract one concrete idea or workflow change. Implement the smallest possible prototype (script, repo fork, or config change), then measure time saved or failure points. Write down what breaks first and whether the idea is worth keeping.",
-    "timeEstimate": "2h",
-    "tags": [
-      "safety"
-    ]
-  },
-  {
-    "id": "hn-47001989",
-    "title": "OpenVizUI is a modern desktop application",
-    "source": "hn",
-    "discussionUrl": "https://news.ycombinator.com/item?id=47001989",
-    "canonicalUrl": "https://www.openvizui.com/",
-    "createdAt": "2026-02-13T12:34:26.000Z",
-    "status": "pending",
-    "whyThisMatters": "Builders are discussing \"OpenVizUI is a modern desktop application,\" which signals a real need in AI tooling or workflows. If this approach works, teams can reduce manual effort and ship experiments faster. That matters now because iteration speed is the main advantage in AI product work.",
-    "tryThis": "Skim the original discussion and extract one concrete idea or workflow change. Implement the smallest possible prototype (script, repo fork, or config change), then measure time saved or failure points. Write down what breaks first and whether the idea is worth keeping.",
-    "timeEstimate": "30m",
-    "tags": [
-      "tooling"
-    ]
-  },
-  {
-    "id": "hn-46882027",
-    "title": "Show HN: Chitram – Open-source image hosting with automatic AI tagging",
-    "source": "hn",
-    "discussionUrl": "https://news.ycombinator.com/item?id=46882027",
-    "canonicalUrl": "https://chitram.io/",
-    "createdAt": "2026-02-04T06:03:26.000Z",
-    "status": "pending",
-    "whyThisMatters": "Show HN threads like \"Show HN: Chitram – Open-source image hosting with automatic AI tagging\" often surface new tools before they become mainstream. A quick hands-on test can reveal whether the tool is production-ready or just a demo. That matters because small teams need reliable shortcuts, not prototypes that collapse in real workflows.",
-    "tryThis": "Run the demo or repo, then replicate a single real workflow you already do today. Measure setup time, rough edges, and the first point of failure. If it saves time twice in a row, consider adopting it or contributing a fix.",
-    "timeEstimate": "30m",
-    "tags": [
-      "vision"
-    ]
-  },
-  {
-    "id": "hn-46871055",
-    "title": "Show HN: Using sound symbolism and multi-agent AI to generate brand names",
-    "source": "hn",
-    "discussionUrl": "https://news.ycombinator.com/item?id=46871055",
-    "canonicalUrl": "https://vibelo.ai/",
-    "createdAt": "2026-02-03T13:59:35.000Z",
-    "status": "pending",
-    "whyThisMatters": "Show HN threads like \"Show HN: Using sound symbolism and multi-agent AI to generate brand names\" often surface new tools before they become mainstream. A quick hands-on test can reveal whether the tool is production-ready or just a demo. That matters because small teams need reliable shortcuts, not prototypes that collapse in real workflows.",
-    "tryThis": "Run the demo or repo, then replicate a single real workflow you already do today. Measure setup time, rough edges, and the first point of failure. If it saves time twice in a row, consider adopting it or contributing a fix.",
-    "timeEstimate": "30m",
-    "tags": [
-      "agents"
-    ]
-  },
-  {
-    "id": "hn-46816539",
-    "title": "Retiring GPT-4o, GPT-4.1, GPT-4.1 mini, and OpenAI o4-mini in ChatGPT",
-    "source": "hn",
-    "discussionUrl": "https://news.ycombinator.com/item?id=46816539",
-    "canonicalUrl": "https://openai.com/index/retiring-gpt-4o-and-older-models",
-    "createdAt": "2026-01-29T21:02:31.000Z",
-    "status": "pending",
-    "whyThisMatters": "Builders are discussing \"Retiring GPT-4o, GPT-4.1, GPT-4.1 mini, and OpenAI o4-mini in ChatGPT,\" which signals a real need in AI tooling or workflows. If this approach works, teams can reduce manual effort and ship experiments faster. That matters now because iteration speed is the main advantage in AI product work.",
-    "tryThis": "Skim the original discussion and extract one concrete idea or workflow change. Implement the smallest possible prototype (script, repo fork, or config change), then measure time saved or failure points. Write down what breaks first and whether the idea is worth keeping.",
-    "timeEstimate": "30m",
-    "tags": [
-      "tooling"
-    ]
-  },
-  {
-    "id": "hn-46780862",
-    "title": "Show HN: Magpie – I built a CLI where AIs argue about my code",
-    "source": "hn",
-    "discussionUrl": "https://news.ycombinator.com/item?id=46780862",
-    "canonicalUrl": "https://news.ycombinator.com/item?id=46780862",
-    "createdAt": "2026-01-27T14:59:57.000Z",
-    "status": "pending",
-    "whyThisMatters": "Show HN threads like \"Show HN: Magpie – I built a CLI where AIs argue about my code\" often surface new tools before they become mainstream. A quick hands-on test can reveal whether the tool is production-ready or just a demo. That matters because small teams need reliable shortcuts, not prototypes that collapse in real workflows.",
-    "tryThis": "Run the demo or repo, then replicate a single real workflow you already do today. Measure setup time, rough edges, and the first point of failure. If it saves time twice in a row, consider adopting it or contributing a fix.",
-    "timeEstimate": "30m",
-    "tags": [
-      "tooling"
-    ]
-  },
-  {
-    "id": "hn-46763579",
-    "title": "Show HN: Akshen – A community-driven library for verified AI prompts",
-    "source": "hn",
-    "discussionUrl": "https://news.ycombinator.com/item?id=46763579",
-    "canonicalUrl": "https://akshen.com/",
-    "createdAt": "2026-01-26T09:41:50.000Z",
-    "status": "pending",
-    "whyThisMatters": "Show HN threads like \"Show HN: Akshen – A community-driven library for verified AI prompts\" often surface new tools before they become mainstream. A quick hands-on test can reveal whether the tool is production-ready or just a demo. That matters because small teams need reliable shortcuts, not prototypes that collapse in real workflows.",
-    "tryThis": "Run the demo or repo, then replicate a single real workflow you already do today. Measure setup time, rough edges, and the first point of failure. If it saves time twice in a row, consider adopting it or contributing a fix.",
-    "timeEstimate": "30m",
-    "tags": [
-      "tooling",
-      "prompt"
-    ]
-  },
-  {
-    "id": "hn-46751191",
-    "title": "Show HN: Voice to Text– Free browser-based speech-to-text with local projects",
-    "source": "hn",
-    "discussionUrl": "https://news.ycombinator.com/item?id=46751191",
-    "canonicalUrl": "https://www.voicetotextonline.com/",
-    "createdAt": "2026-01-25T05:57:22.000Z",
-    "status": "pending",
-    "whyThisMatters": "Show HN threads like \"Show HN: Voice to Text– Free browser-based speech-to-text with local projects\" often surface new tools before they become mainstream. A quick hands-on test can reveal whether the tool is production-ready or just a demo. That matters because small teams need reliable shortcuts, not prototypes that collapse in real workflows.",
-    "tryThis": "Run the demo or repo, then replicate a single real workflow you already do today. Measure setup time, rough edges, and the first point of failure. If it saves time twice in a row, consider adopting it or contributing a fix.",
-    "timeEstimate": "30m",
-    "tags": [
-      "tooling"
-    ]
-  },
-  {
-    "id": "hn-46669267",
-    "title": "Show HN: Rails engine for building production-ready LLM agents",
-    "source": "hn",
-    "discussionUrl": "https://news.ycombinator.com/item?id=46669267",
-    "canonicalUrl": "https://github.com/adham90/ruby_llm-agents",
-    "createdAt": "2026-01-18T16:41:18.000Z",
-    "status": "pending",
-    "whyThisMatters": "Show HN threads like \"Show HN: Rails engine for building production-ready LLM agents\" often surface new tools before they become mainstream. A quick hands-on test can reveal whether the tool is production-ready or just a demo. That matters because small teams need reliable shortcuts, not prototypes that collapse in real workflows.",
-    "tryThis": "Run the demo or repo, then replicate a single real workflow you already do today. Measure setup time, rough edges, and the first point of failure. If it saves time twice in a row, consider adopting it or contributing a fix.",
-    "timeEstimate": "30m",
-    "tags": [
-      "agents"
-    ]
-  },
-  {
-    "id": "hn-46633058",
-    "title": "Show HN: Azurite – Triage Linear and GitHub issues using MCP (Deck of Cards UI)",
-    "source": "hn",
-    "discussionUrl": "https://news.ycombinator.com/item?id=46633058",
-    "canonicalUrl": "https://azurite-labs.vercel.app/",
-    "createdAt": "2026-01-15T14:33:18.000Z",
-    "status": "pending",
-    "whyThisMatters": "Show HN threads like \"Show HN: Azurite – Triage Linear and GitHub issues using MCP (Deck of Cards UI)\" often surface new tools before they become mainstream. A quick hands-on test can reveal whether the tool is production-ready or just a demo. That matters because small teams need reliable shortcuts, not prototypes that collapse in real workflows.",
-    "tryThis": "Run the demo or repo, then replicate a single real workflow you already do today. Measure setup time, rough edges, and the first point of failure. If it saves time twice in a row, consider adopting it or contributing a fix.",
-    "timeEstimate": "30m",
-    "tags": [
-      "tooling"
-    ]
-  },
-  {
-    "id": "hn-46549372",
-    "title": "GPT-4o selected optimal CT protocols more frequently than Radiologists",
-    "source": "hn",
-    "discussionUrl": "https://news.ycombinator.com/item?id=46549372",
-    "canonicalUrl": "https://doi.org/10.1148/radiol.252105",
-    "createdAt": "2026-01-09T02:16:45.000Z",
-    "status": "pending",
-    "whyThisMatters": "Builders are discussing \"GPT-4o selected optimal CT protocols more frequently than Radiologists,\" which signals a real need in AI tooling or workflows. If this approach works, teams can reduce manual effort and ship experiments faster. That matters now because iteration speed is the main advantage in AI product work.",
-    "tryThis": "Skim the original discussion and extract one concrete idea or workflow change. Implement the smallest possible prototype (script, repo fork, or config change), then measure time saved or failure points. Write down what breaks first and whether the idea is worth keeping.",
-    "timeEstimate": "30m",
-    "tags": [
-      "tooling"
-    ]
-  },
-  {
-    "id": "hn-46518271",
-    "title": "Show HN: NoMe AI Authentication (a bad way to login)",
-    "source": "hn",
-    "discussionUrl": "https://news.ycombinator.com/item?id=46518271",
-    "canonicalUrl": "https://nome.fly.dev/",
-    "createdAt": "2026-01-06T20:33:57.000Z",
-    "status": "pending",
-    "whyThisMatters": "Show HN threads like \"Show HN: NoMe AI Authentication (a bad way to login)\" often surface new tools before they become mainstream. A quick hands-on test can reveal whether the tool is production-ready or just a demo. That matters because small teams need reliable shortcuts, not prototypes that collapse in real workflows.",
-    "tryThis": "Run the demo or repo, then replicate a single real workflow you already do today. Measure setup time, rough edges, and the first point of failure. If it saves time twice in a row, consider adopting it or contributing a fix.",
-    "timeEstimate": "30m",
-    "tags": [
-      "tooling"
-    ]
-  },
-  {
-    "id": "hn-47002111",
-    "title": "Rails CoC Skill",
-    "source": "hn",
-    "discussionUrl": "https://news.ycombinator.com/item?id=47002111",
-    "canonicalUrl": "https://github.com/vickyonit/rails-coc",
-    "createdAt": "2026-02-13T12:47:29.000Z",
-    "status": "pending",
-    "whyThisMatters": "Builders are discussing \"Rails CoC Skill,\" which signals a real need in AI tooling or workflows. If this approach works, teams can reduce manual effort and ship experiments faster. That matters now because iteration speed is the main advantage in AI product work.",
-    "tryThis": "Skim the original discussion and extract one concrete idea or workflow change. Implement the smallest possible prototype (script, repo fork, or config change), then measure time saved or failure points. Write down what breaks first and whether the idea is worth keeping.",
-    "timeEstimate": "30m",
-    "tags": [
-      "tooling"
-    ]
-  },
-  {
-    "id": "hn-46992983",
-    "title": "What Happens When Strangers Can Confess Anything – Anonymous?",
-    "source": "hn",
-    "discussionUrl": "https://news.ycombinator.com/item?id=46992983",
-    "canonicalUrl": "https://www.indiehackers.com/post/what-happens-when-strangers-can-confess-anything-completely-anonymous-58f3c2968f",
-    "createdAt": "2026-02-12T18:33:08.000Z",
-    "status": "pending",
-    "whyThisMatters": "Builders are discussing \"What Happens When Strangers Can Confess Anything – Anonymous?,\" which signals a real need in AI tooling or workflows. If this approach works, teams can reduce manual effort and ship experiments faster. That matters now because iteration speed is the main advantage in AI product work.",
-    "tryThis": "Skim the original discussion and extract one concrete idea or workflow change. Implement the smallest possible prototype (script, repo fork, or config change), then measure time saved or failure points. Write down what breaks first and whether the idea is worth keeping.",
-    "timeEstimate": "30m",
-    "tags": [
-      "tooling"
-    ]
-  },
-  {
-    "id": "hn-47001665",
-    "title": "Cisco's Jeetu Patel: Why AI Fluency Will Soon Be Non-Optional",
-    "source": "hn",
-    "discussionUrl": "https://news.ycombinator.com/item?id=47001665",
-    "canonicalUrl": "https://www.forbes.com/sites/rodgerdeanduncan/2026/02/12/ciscos-jeetu-patel-why-ai-fluency-will-soon-be-non-optional",
-    "createdAt": "2026-02-13T11:47:21.000Z",
-    "status": "pending",
-    "whyThisMatters": "Builders are discussing \"Cisco's Jeetu Patel: Why AI Fluency Will Soon Be Non-Optional,\" which signals a real need in AI tooling or workflows. If this approach works, teams can reduce manual effort and ship experiments faster. That matters now because iteration speed is the main advantage in AI product work.",
-    "tryThis": "Skim the original discussion and extract one concrete idea or workflow change. Implement the smallest possible prototype (script, repo fork, or config change), then measure time saved or failure points. Write down what breaks first and whether the idea is worth keeping.",
-    "timeEstimate": "30m",
-    "tags": [
-      "tooling"
-    ]
-  },
-  {
-    "id": "hn-47001625",
-    "title": "Russ Cox on: What should we do with CLs generated by AI?",
-    "source": "hn",
-    "discussionUrl": "https://news.ycombinator.com/item?id=47001625",
-    "canonicalUrl": "https://groups.google.com/g/golang-dev/c/4li4ovd_ehe/m/8l9s_jq4baaj",
-    "createdAt": "2026-02-13T11:40:27.000Z",
-    "status": "pending",
-    "whyThisMatters": "Builders are discussing \"Russ Cox on: What should we do with CLs generated by AI?,\" which signals a real need in AI tooling or workflows. If this approach works, teams can reduce manual effort and ship experiments faster. That matters now because iteration speed is the main advantage in AI product work.",
     "tryThis": "Skim the original discussion and extract one concrete idea or workflow change. Implement the smallest possible prototype (script, repo fork, or config change), then measure time saved or failure points. Write down what breaks first and whether the idea is worth keeping.",
     "timeEstimate": "30m",
     "tags": [
